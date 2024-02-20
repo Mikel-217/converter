@@ -6,13 +6,15 @@ using System.Xml.Linq;
 using MAIN;
 using MILE;
 
-namespace MILES {
+namespace MILFS {
 
     public class Miles {
         double kilometer = 1.60934;
 
         public void startm() {
+            Console.WriteLine("-----------------------------------------\n");
             Console.WriteLine("Geben Sie die Meilen per hour an, um in KMh zu berechnen: \n");
+            Console.WriteLine("-----------------------------------------\n");
             input();
         }
         public void input() {

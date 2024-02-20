@@ -4,7 +4,7 @@ using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Xml.Linq;
 using MAIN;
-using MILES;
+using MILFS;
 
 namespace MILE {
 
@@ -12,7 +12,9 @@ namespace MILE {
         
 
         public void milestart() {
+            Console.WriteLine("-----------------------------------------\n");
             Console.WriteLine("Geben Sie die Meilen an um diese in Kilometer umzurechnen: \n");
+            Console.WriteLine("-----------------------------------------\n");
             milenstart();
             
             Console.Title = "Umrechner";

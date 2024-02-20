@@ -2,17 +2,16 @@
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Xml.Linq;
-using MILES;
+using MILFS;
 using MILE;
+using DOLLAR;
+using FAHREN;
 
 
 /* TODO: 
 - bit zu bytes
 - MB zu Mebibyte
 - Fahrenheit zu Celcius
-- Milen zu Kilometer
-- Dollar zu Euro
-- Euro zu Dollar
 */
 
 namespace MAIN {
@@ -22,6 +21,7 @@ namespace MAIN {
 
         public static void Main(string[] args) {
             
+            Console.Title = "Umrechner";
             maininout man = new maininout();
             man.mainout();
             
@@ -33,10 +33,11 @@ namespace MAIN {
             Console.WriteLine("Was möchten Sie berechnen/umrechnen?\n");
             Console.WriteLine("1 MPh zu KMh\n");
             Console.WriteLine("2 Milen zu Kilometer\n");
-            Console.WriteLine("3 Fahrenheiten zu Celcius\n");
+            Console.WriteLine("3 Fahrenheiten zu Celsius\n");
             Console.WriteLine("4 Bit zu Bytes\n");
             Console.WriteLine("5 Megabyte zu Mebibyte\n");
             Console.WriteLine("6 Dollar zu Euro\n");
+            Console.WriteLine("7 Exit");
             Console.WriteLine("Schreiben Sie eine Zahl rein um dieses auszuwählen:\n");
             Console.WriteLine("-----------------------------------------\n");
 
@@ -71,7 +72,8 @@ namespace MAIN {
                     startmile.milestart();
                     break;
                 case 3:
-
+    	            fahren fah = new fahren();
+                    fah.startenfah();
                     break;
                 case 4:
 
@@ -80,7 +82,11 @@ namespace MAIN {
 
                     break;
                 case 6:
-
+                    dtoe dollar = new dtoe();
+                    dollar.startdoll();
+                    break;
+                case 7:
+                    Environment.Exit(0);
                     break;
                 default:
                     break;
