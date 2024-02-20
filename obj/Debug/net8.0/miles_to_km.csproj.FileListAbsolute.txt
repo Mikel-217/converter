@@ -1,0 +1,14 @@
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\bin\Debug\net8.0\miles_to_km.exe
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\bin\Debug\net8.0\miles_to_km.deps.json
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\bin\Debug\net8.0\miles_to_km.runtimeconfig.json
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\bin\Debug\net8.0\miles_to_km.dll
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\bin\Debug\net8.0\miles_to_km.pdb
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\obj\Debug\net8.0\miles_to_km.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\obj\Debug\net8.0\miles_to_km.AssemblyInfoInputs.cache
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\obj\Debug\net8.0\miles_to_km.AssemblyInfo.cs
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\obj\Debug\net8.0\miles_to_km.csproj.CoreCompileInputs.cache
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\obj\Debug\net8.0\miles_to_km.dll
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\obj\Debug\net8.0\refint\miles_to_km.dll
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\obj\Debug\net8.0\miles_to_km.pdb
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\obj\Debug\net8.0\miles_to_km.genruntimeconfig.cache
+c:\Users\Kunze\source\repos\miles_to_km\miles_to_km\obj\Debug\net8.0\ref\miles_to_km.dll
