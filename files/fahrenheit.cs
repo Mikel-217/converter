@@ -44,7 +44,22 @@ namespace FAHREN {
         }
 
         void celfa() {
+            double cel1 = 0;
+            double cel2 = 0;
+            double finalfa1 = 0;
 
+            string tmpfah2;
+
+            Console.WriteLine("Geben Sie ihre Grad anzahl in Celsius an: \n");
+
+            tmpfah2 = Console.ReadLine();
+
+            cel1 = Convert.ToInt32(tmpfah2);
+
+            cel2 = cel1 * 9/5;
+            finalfa1 = cel2 + 32;
+
+            Console.WriteLine("Das Ergebnis: " + finalfa1 + "F");
         }
 
         void facel() {

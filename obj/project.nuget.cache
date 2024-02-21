@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1KideGz5XnqYmvHae9kIgIWiI4Hc95/97xNDb6HoVz00Rk4Enwj+OljVVhVsuJDQdrGVnOaXIDRYQ4iB4Y8O2w==",
+  "dgSpecHash": "ZytPCdIBE4rRf14/Ky6LvwYBqfl4Q41+zJdscfts2U3gKWUgKB01a2YoAD8D55LKEE9zAdZkKBDmDIXf/20eQQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Kunze\\source\\repos\\miles_to_km\\miles_to_km\\miles_to_km.csproj",
+  "projectFilePath": "/home/mikel/Dokumente/Development/converter/miles_to_km.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
