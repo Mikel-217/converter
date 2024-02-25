@@ -23,6 +23,7 @@ namespace FAHREN {
         }
 
         void inputfahr() {
+
             int inputfa = 0;
             string tmpfah;
 
@@ -44,6 +45,7 @@ namespace FAHREN {
         }
 
         void celfa() {
+
             double cel1 = 0;
             double cel2 = 0;
             double finalfa1 = 0;
@@ -63,6 +65,7 @@ namespace FAHREN {
         }
 
         void facel() {
+            
             double face1 = 0;
             double face2 = 0;
             double finalfa2 = 0;
@@ -79,6 +82,34 @@ namespace FAHREN {
             finalfa2 = face2 * 5/9;
 
             Console.WriteLine("Das Ergebnis: " + finalfa2 + "C");
+        }
+
+        void startfah() {
+            int instafah = 0;
+            string tmpstafa;
+
+            Console.WriteLine("-----------------------------------------\n");
+            Console.WriteLine("1 Hauptmenü");
+            Console.WriteLine("2 Mehr berechnen");
+            Console.WriteLine("-----------------------------------------\n");
+
+            tmpstafa = Console.ReadLine();
+
+            instafah = Convert.ToInt32(tmpstafa);
+
+            switch (instafah) {
+                
+                case 1:
+                    maininout pr = new maininout();
+                    pr.mainout();
+                    break;
+                case 2:
+                    startenfah();
+                    break;
+                default:
+                    break;
+            }
+
         }
     }
 }

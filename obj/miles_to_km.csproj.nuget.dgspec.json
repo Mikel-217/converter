@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kunze\\Source\\Repos\\converter\\miles_to_km.csproj": {}
+    "C:\\Users\\Kunze\\source\\repos\\miles_to_km\\miles_to_km\\miles_to_km.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kunze\\Source\\Repos\\converter\\miles_to_km.csproj": {
+    "C:\\Users\\Kunze\\source\\repos\\miles_to_km\\miles_to_km\\miles_to_km.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kunze\\Source\\Repos\\converter\\miles_to_km.csproj",
+        "projectUniqueName": "C:\\Users\\Kunze\\source\\repos\\miles_to_km\\miles_to_km\\miles_to_km.csproj",
         "projectName": "miles_to_km",
-        "projectPath": "C:\\Users\\Kunze\\Source\\Repos\\converter\\miles_to_km.csproj",
+        "projectPath": "C:\\Users\\Kunze\\source\\repos\\miles_to_km\\miles_to_km\\miles_to_km.csproj",
         "packagesPath": "C:\\Users\\Kunze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kunze\\Source\\Repos\\converter\\obj\\",
+        "outputPath": "C:\\Users\\Kunze\\source\\repos\\miles_to_km\\miles_to_km\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

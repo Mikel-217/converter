@@ -6,12 +6,11 @@ using MILFS;
 using MILE;
 using DOLLAR;
 using FAHREN;
+using BIT;
 
 
 /* TODO: 
-- bit zu bytes
 - MB zu Mebibyte
-- Fahrenheit zu Celcius
 */
 
 namespace MAIN {
@@ -29,6 +28,7 @@ namespace MAIN {
     }
     public class maininout {
         public void mainout() {
+            
             Console.WriteLine("-----------------------------------------\n");
             Console.WriteLine("Was möchten Sie berechnen/umrechnen?\n");
             Console.WriteLine("1 MPh zu KMh\n");
@@ -37,7 +37,7 @@ namespace MAIN {
             Console.WriteLine("4 Bit zu Bytes\n");
             Console.WriteLine("5 Megabyte zu Mebibyte\n");
             Console.WriteLine("6 Dollar zu Euro\n");
-            Console.WriteLine("7 Exit");
+            Console.WriteLine("7 Exit\n");
             Console.WriteLine("Schreiben Sie eine Zahl rein um dieses auszuwählen:\n");
             Console.WriteLine("-----------------------------------------\n");
 
@@ -76,9 +76,11 @@ namespace MAIN {
                     fah.startenfah();
                     break;
                 case 4:
-
+                    bitb bit = new bitb();
+                    bit.startbit();
                     break;
                 case 5:
+
 
                     break;
                 case 6:

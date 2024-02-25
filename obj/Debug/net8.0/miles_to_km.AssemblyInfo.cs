@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("miles_to_km")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+063583d267eb438c64884b96bf8a930dc640ffa8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("miles_to_km")]
 [assembly: System.Reflection.AssemblyTitleAttribute("miles_to_km")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

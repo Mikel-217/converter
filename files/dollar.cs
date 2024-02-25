@@ -50,7 +50,7 @@ namespace DOLLAR {
 
             finaldoll = dollar * euro;
 
-            Console.WriteLine("Das Ergebnis:" + finaldoll);
+            Console.WriteLine("Das Ergebnis: " + finaldoll);
 
             dollarsta();
         }
@@ -68,7 +68,7 @@ namespace DOLLAR {
 
             finaldoll2 = euro2 / dollar2;
 
-            Console.WriteLine("Das Ergebnis:" + finaldoll2);
+            Console.WriteLine("Das Ergebnis: " + finaldoll2);
 
             dollarsta();
         }
