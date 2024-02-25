@@ -8,24 +8,32 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/mikel/.nuget/packages/": {}
+    "C:\\Users\\Kunze\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mikel/Dokumente/Development/converter/miles_to_km.csproj",
+      "projectUniqueName": "C:\\Users\\Kunze\\Source\\Repos\\converter\\miles_to_km.csproj",
       "projectName": "miles_to_km",
-      "projectPath": "/home/mikel/Dokumente/Development/converter/miles_to_km.csproj",
-      "packagesPath": "/home/mikel/.nuget/packages/",
-      "outputPath": "/home/mikel/Dokumente/Development/converter/obj/",
+      "projectPath": "C:\\Users\\Kunze\\Source\\Repos\\converter\\miles_to_km.csproj",
+      "packagesPath": "C:\\Users\\Kunze\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kunze\\Source\\Repos\\converter\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/mikel/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Kunze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -38,11 +46,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/236/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
