@@ -7,11 +7,8 @@ using MILE;
 using DOLLAR;
 using FAHREN;
 using BIT;
+using MEBIBYTE;
 
-
-/* TODO: 
-- MB zu Mebibyte
-*/
 
 namespace MAIN {
     
@@ -80,8 +77,8 @@ namespace MAIN {
                     bit.startbit();
                     break;
                 case 5:
-
-
+                    Mebibyte meb = new Mebibyte();
+                    meb.mebistart();
                     break;
                 case 6:
                     dtoe dollar = new dtoe();
@@ -93,7 +90,6 @@ namespace MAIN {
                 default:
                     break;
             }
-
         }
     }
 }
