@@ -10,27 +10,23 @@ using MAIN;
 namespace FAHREN {
 
     public class fahren {
-
         public void startenfah() {
 
-            Console.WriteLine("-----------------------------------------\n");
-            Console.WriteLine("Fahrenheiten in Celsius umrechen \n");
-            Console.WriteLine("1 Celsius in Fahrenheit \n");
-            Console.WriteLine("2 Fahrenheiten in Celsius \n");
-            Console.WriteLine("-----------------------------------------\n");
+            Console.WriteLine("-----------------------------------------\n"+
+                "Fahrenheiten in Celsius umrechen \n"+
+                "1 Celsius in Fahrenheit \n"+
+                "2 Fahrenheiten in Celsius \n"+
+                "-----------------------------------------\n");
 
             inputfahr();
         }
 
         void inputfahr() {
-
             int inputfa = 0;
-            string tmpfah;
-
+            
             Console.WriteLine("Option wählen: \n");
-            tmpfah = Console.ReadLine();
 
-            inputfa = Convert.ToInt32(tmpfah);
+            inputfa = Convert.ToInt32(Console.ReadLine()!);
 
             switch (inputfa) {
                 case 1:
@@ -50,18 +46,14 @@ namespace FAHREN {
             double cel2 = 0;
             double finalfa1 = 0;
 
-            string tmpfah2;
-
             Console.WriteLine("Geben Sie ihre Grad anzahl in Celsius an: \n");
 
-            tmpfah2 = Console.ReadLine();
-
-            cel1 = Convert.ToInt32(tmpfah2);
-
+            cel1 = Convert.ToDouble(Console.ReadLine()!);
             cel2 = cel1 * 9/5;
             finalfa1 = cel2 + 32;
 
-            Console.WriteLine("Das Ergebnis: " + finalfa1 + "F");
+            Console.WriteLine($"Das Ergebnis: {finalfa1} F");
+            startenfah();
         }
 
         void facel() {
@@ -70,32 +62,23 @@ namespace FAHREN {
             double face2 = 0;
             double finalfa2 = 0;
 
-            string tmpfah3;
-
             Console.WriteLine("Geben Sie eine Fahrenheit zahl an: \n");
 
-            tmpfah3 = Console.ReadLine();
-
-            face1 = Convert.ToInt32(tmpfah3);
-
+            face1 = Convert.ToDouble(Console.ReadLine()!);
             face2 = face1 - 32;
             finalfa2 = face2 * 5/9;
-
-            Console.WriteLine("Das Ergebnis: " + finalfa2 + "C");
+            Console.WriteLine($"Das Ergebnis: {finalfa2} C");
+            startenfah();
         }
 
         void startfah() {
             int instafah = 0;
-            string tmpstafa;
-
-            Console.WriteLine("-----------------------------------------\n");
-            Console.WriteLine("1 Hauptmenü");
-            Console.WriteLine("2 Mehr berechnen");
-            Console.WriteLine("-----------------------------------------\n");
-
-            tmpstafa = Console.ReadLine();
-
-            instafah = Convert.ToInt32(tmpstafa);
+            
+            Console.WriteLine("-----------------------------------------\n"+
+                "1 Hauptmenü \n"+
+                "2 Mehr berechnen \n"+
+                "-----------------------------------------\n");
+            instafah = Convert.ToInt32(Console.ReadLine()!);
 
             switch (instafah) {
                 

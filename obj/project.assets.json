@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kunze\\source\\repos\\miles_to_km\\miles_to_km\\miles_to_km.csproj",
+      "projectUniqueName": "C:\\Users\\Kunze\\RiderProjects\\converter\\miles_to_km.csproj",
       "projectName": "miles_to_km",
-      "projectPath": "C:\\Users\\Kunze\\source\\repos\\miles_to_km\\miles_to_km\\miles_to_km.csproj",
+      "projectPath": "C:\\Users\\Kunze\\RiderProjects\\converter\\miles_to_km.csproj",
       "packagesPath": "C:\\Users\\Kunze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kunze\\source\\repos\\miles_to_km\\miles_to_km\\obj\\",
+      "outputPath": "C:\\Users\\Kunze\\RiderProjects\\converter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,6 +46,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -67,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

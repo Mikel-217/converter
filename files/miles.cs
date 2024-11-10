@@ -6,54 +6,35 @@ using System.Xml.Linq;
 using MAIN;
 using MILE;
 
-namespace MILFS {
+namespace MILEN {
 
     public class Miles {
         double kilometer = 1.60934;
 
         public void startm() {
-            Console.WriteLine("-----------------------------------------\n");
-            Console.WriteLine("Geben Sie die Meilen per hour an, um in KMh zu berechnen: \n");
-            Console.WriteLine("-----------------------------------------\n");
+            Console.WriteLine("-----------------------------------------\n" +
+                "Geben Sie die Meilen per hour an, um in KMh zu berechnen: \n" +
+                "-----------------------------------------\n");
             input();
         }
         public void input() {
-            /* Variabeln */
-            string tmp;
+            
             double inputput = 0;
             double final = 0;
-
-            /* Input */
-            tmp = Console.ReadLine();
-
-            if(tmp == null) {
-                Console.WriteLine("Error");
-            } else {
-
-            /* Umrechnen */
-            inputput = Convert.ToDouble(tmp);
-
-            /* Berechnen */
+            inputput = Convert.ToDouble(Console.ReadLine()!);
             final = inputput * kilometer;
 
-            Console.WriteLine("Die Geschwindigkeit in KM/h beträgt: " + final);
+            Console.WriteLine($"Die Geschwindigkeit in KM/h beträgt: {final}");
             milesa();
-            }
         }
 
         public void milesa() {
-            string tmpmilesa;
             int tmpintmile = 0;
-
-            Console.WriteLine("-----------------------------------------\n");
-            Console.WriteLine("1 Hauptmenü");
-            Console.WriteLine("2 Mehr berechnen");
-            Console.WriteLine("-----------------------------------------\n");
-
-            tmpmilesa = Console.ReadLine();
-
-            tmpintmile = Convert.ToInt32(tmpmilesa);
-
+            Console.WriteLine("-----------------------------------------\n" +
+                "1 Hauptmenü \n" +
+                "2 Mehr berechnen \n" +
+                "-----------------------------------------\n");
+            tmpintmile = Convert.ToInt32(Console.ReadLine()!);
             switch (tmpintmile) {
                 case 1:  
                     maininout pr = new maininout();

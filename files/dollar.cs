@@ -8,22 +8,18 @@ namespace DOLLAR {
 
         public void startdoll() {
 
-            Console.WriteLine("-----------------------------------------\n");
-            Console.WriteLine("Bitte auswäheln: \n");
-            Console.WriteLine("1 Dollar zu Euro\n");
-            Console.WriteLine("2 Euro zu Dollar\n");
-            Console.WriteLine("-----------------------------------------\n");
+            Console.WriteLine("-----------------------------------------\n"+
+                "Bitte auswäheln: \n"+
+                "1 Dollar zu Euro\n"+
+                "2 Euro zu Dollar\n"+
+                "-----------------------------------------\n");
 
             inputdoll();
         }
 
         void inputdoll() {
-            string tmpdoll;
             int inpuint = 0;
-
-            tmpdoll = Console.ReadLine();
-
-            inpuint = Convert.ToInt32(tmpdoll);
+            inpuint = Convert.ToInt32(Console.ReadLine()!);
 
             switch (inpuint) {
                 case 1:
@@ -42,15 +38,12 @@ namespace DOLLAR {
             double dollar = 0;
             double euro = 0.92515;
             double finaldoll = 0;    
-            string tmpdolle;
 
             Console.WriteLine("Geben Sie Dollar an um es in Euro umzuwandeln: \n");
-            tmpdolle = Console.ReadLine();
-            dollar = Convert.ToDouble(tmpdolle);
-
+            dollar = Convert.ToDouble(Console.ReadLine()!);
             finaldoll = dollar * euro;
 
-            Console.WriteLine("Das Ergebnis: " + finaldoll);
+            Console.WriteLine($"Das Ergebnis: {finaldoll}");
 
             dollarsta();
         }
@@ -60,32 +53,23 @@ namespace DOLLAR {
             double dollar2 = 0.92515;
             double euro2 = 0;
             double finaldoll2 = 0;
-            string tmpdolle2;
 
             Console.WriteLine("Geben Sie Euro an um es in Dollar umzuwandeln: \n");
-            tmpdolle2 = Console.ReadLine();
-            dollar2 = Convert.ToDouble(tmpdolle2);
+            dollar2 = Convert.ToDouble(Console.ReadLine()!);
 
             finaldoll2 = euro2 / dollar2;
 
-            Console.WriteLine("Das Ergebnis: " + finaldoll2);
-
+            Console.WriteLine($"Das Ergebnis: {finaldoll2}");
             dollarsta();
         }
 
         void dollarsta() {
-
             int backm = 0;
-            string backms;
-
-            Console.WriteLine("-----------------------------------------\n");
-            Console.WriteLine("1 Hauptmenü");
-            Console.WriteLine("2 Mehr berechnen");
-            Console.WriteLine("-----------------------------------------\n");
-            backms = Console.ReadLine();
-
-            backm = Convert.ToInt32(backms);
-
+            Console.WriteLine("-----------------------------------------\n"+
+                "1 Hauptmenü \n"+
+                "2 Mehr berechnen \n"+
+                "-----------------------------------------\n");
+            backm = Convert.ToInt32(Console.ReadLine()!);
             switch (backm) {
                 case 1:
                     maininout pr = new maininout();
